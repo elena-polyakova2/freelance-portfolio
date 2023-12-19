@@ -10,8 +10,6 @@ Bootstrap website for my web development business with modals and other features
 - Responsive design
 - Replaceme script for rolling words
 - Navbar scroll effect
-- Video modal
-- Animated play button
 - Pricing grid
 - Styled modals for projects
 - Font awesome icons
