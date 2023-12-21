@@ -1,17 +1,15 @@
 # My Freelance Portfolio Website
 
-Bootstrap website for my web development business. Dark-themed design with modals and other features.
+Bootstrap website for my web development business with modals and other features.
 
 
 
 ## Features
 
-- Dark design with bright buttons & text for contrast
+- Colourful design with bright buttons & text for contrast
 - Responsive design
 - Replaceme script for rolling words
 - Navbar scroll effect
-- Video modal
-- Animated play button
 - Pricing grid
 - Styled modals for projects
 - Font awesome icons
