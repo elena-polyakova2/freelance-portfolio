@@ -32,27 +32,53 @@ function userScroll() {
 
 document.addEventListener('DOMContentLoaded', userScroll);
 
-// Video Modal
-const videoBtn = document.querySelector('.video-btn');
-const videoModal = document.querySelector('#videoModal');
-const video = document.querySelector('#video');
-let videoSrc;
+// Send email
+const senderName = document.getElementById('inputName');
+const email = document.getElementById('inputEmail');
+const phone = document.getElementById('inputPhone');
+const textMessage = document.getElementById('textareaMessage'); 
+const submit = document.getElementsByClassName('contact-form')[0];
 
-if (videoBtn !== null) {
-  videoBtn.addEventListener('click', () => {
-    videoSrc = videoBtn.getAttribute('data-bs-src');
-  });
-}
+submit.addEventListener('submit', (event) => {
 
-if (videoModal !== null) {
-  videoModal.addEventListener('shown.bs.modal', () => {
-    video.setAttribute(
-      'src',
-      videoSrc + '?autoplay=1;modestbranding=1;showInfo=0'
-    );
-  });
+  event.preventDefault;
 
-  videoModal.addEventListener('hide.bs.modal', () => {
-    video.setAttribute('src', videoSrc);
-  });
+  try {
+    
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    SecureToken : "476aba11-90b8-45b9-967d-af00ef531e2f",
+    Username: "elena311979@gmail.com",
+    Password: "30FA3E632C443523A3CF990C5B7ED76FFB50",
+    To: 'elena311979@gmail.com', 
+    From: 'elena311979@gmail.com',
+    Subject: "Message From Contact Form",
+    Body: `Name: ${senderName.value} <br />
+    Email: ${email.value} <br />,
+    Phone: ${phone.value} <br />
+    Message: ${textMessage.value}`
+  }).then (
+    clearAndAlertOnSubmit(),
+    console.log(senderName.value, email.value, phone.value, textMessage.value),
+    submit.reset()
+  )
+  } catch (error){
+    console.log(error);
+    Swal.fire({
+      title: 'Sorry, something went wrong!',
+      text: 'Your message wasn\'t sent, possibly, due to some website maintenance. Please use other metod to communicate. Thank you for understanding.',
+      icon: 'error',
+      confirmButtonText: 'OK'
+    })
+  }
+})
+
+async function clearAndAlertOnSubmit() {
+  let alertOnSubmit = new Promise(function(notify) {
+    notify = Swal.fire({
+      text: 'Your message was sent successfully. Thank you',
+      icon: 'success',
+      confirmButtonText: 'Ok'
+      })}
+  )
 }
