@@ -47,6 +47,10 @@
   width: 24px;
 }
 
+.projects {
+  cursor: pointer;
+}
+
 @keyframes pulse-border {
   0% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);

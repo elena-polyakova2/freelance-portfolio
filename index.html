@@ -117,8 +117,8 @@
           </div>
         </div>
         <!-- Projects Row 1 -->
-        <div class="row">
-          <div class="col-md-4 mb-4">
+        <div class="row d-flex">
+          <div class="col-md-4 mb-4 d-flex">
             <div class="card bg-secondary">
               <a data-bs-toggle="modal" data-bs-target="#modal1">
                 <img src="images\amazing-landscaping-image.png" alt="" class="card-img-top">
@@ -132,20 +132,19 @@
           </div>
           <!-- TODO: add 2 other projects for my portfolio -->
 
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4 d-flex">
             <div class="card bg-secondary">
               <a data-bs-toggle="modal" data-bs-target="#modal2">
-                <img src="images/project-2.jpg" alt="" class="card-img-top">
+                <img src="images/cleaning-company.png" alt="" class="card-img-top" >
                 <div class="card-body">
                   <p>
-                    <strong>First Bank</strong> - Donec bibeum mollis liga sit amet
-                    pulvinar sed viverra noris
+                    <strong>Your Cleaning Company</strong> - Responsive website for a fictitious cleaning company.
                   </p>
                 </div>
               </a>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4 d-flex">
             <div class="card bg-secondary">
               <a data-bs-toggle="modal" data-bs-target="#modal3">
                 <img src="images/project-3.jpg" alt="" class="card-img-top">
@@ -175,13 +174,22 @@
               <div class="col-md-6">
                 <h3>Amazing Landscaping</h3>
                 <p>
-                  Responsive website for a fictitious company that creates and customizes landscapes. It is a light business theme with a clean design made with Bootstrap, SCSS, JavaScript, Node, Font Awesome and Pixabay images.
+                  Responsive website for a fictitious company that creates and customizes landscapes. It is a light business theme with a clean design.
                 </p>
                 <p>
-                  Features: clean design with background images, custom JavaScript for the stat counter, navigation scroll effect, project area, testimonial slider, contact form, inner article page.
+                  Features: 
+                  <ul>
+                    <li>background images,</li>
+                    <li>stat counter,</li>
+                    <li>navigation scroll effect,</li>
+                    <li>project area,</li>
+                    <li>testimonial slider,</li>
+                    <li>contact form,</li>
+                    <li>inner article page.</li>
+                  </ul>
                 </p>
                 <a href="https://amazing-landscaping.elenasoftdev.ca/" class="btn btn-primary text-white mx-2">
-                  See Live
+                  Visit
                 </a>
                 <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
               </div>
@@ -196,21 +204,27 @@
           <div class="modal-content bg-secondary p-5">
             <div class="row">
               <div class="col-md-6">
-                <img src="images/project-2.jpg" alt="" class="img-fluid">
+                <img src="images\cleaning-company.png" alt="" class="img-fluid">
               </div>
               <div class="col-md-6">
-                <h3>First Bank</h3>
+                <h3>Your Cleaning Company</h3>
                 <p>
-                  Aliquam at accumsan nibh. Praesent pretium ut tortor ac commodo.
-                  Integer semper quam at rutrum interdum. Mauris eu diam ac urna
-                  laoreet mollis et
+                  Responsive website for a fictitious cleaning company. It is a light business theme with a clean design featuring .
                 </p>
                 <p>
-                  Praesent lacus tortor, facilisis non enim eu, luctus semper velit.
-                  Curabitur faucibus diam in lectus.
+                  Features: 
+                  <ul>
+                    <li>request for a callback,</li>
+                    <li>online booing,</li>
+                    <li>service area section,</li>
+                    <li>project area,</li>
+                    <li>testimonial section,</li>
+                    <li>Contact, About pages,</li>
+                    <li>reCAPTCHA.</li>
+                  </ul>
                 </p>
-                <a href="#" class="btn btn-primary text-white">
-                  Details
+                <a href="https://cleaning-company.elenasoftdev.ca/" class="btn btn-primary text-white">
+                  Visit
                 </a>
                 <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
               </div>
@@ -353,6 +367,7 @@
     
     <!-- Pricing -->
     <section id="pricing" class="pricing my-6 pt-6">
+      <!-- TODO: think of domain names .com from $11/year; hosting from $24.95/month-->
       <div class="container">
         <div class="row mb-4">
           <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
