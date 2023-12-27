@@ -476,7 +476,7 @@
       </div>
     </section>
     
-    <!-- Contact TODO: add javascript -->
+    <!-- Contact -->
     <section id="contact" class="contact my-7 pt-6">
       <div class="container">
         <div class="row">
@@ -490,7 +490,7 @@
               <li class="d-flex align-items-center mt-4">
                 <i class="fas fa-check text-primary mx-3"></i>
                 <div>
-                  <strong>Business Information:</strong> elenasoftdev.ca London, ON 
+                  <strong>Business Information:</strong> elenasoftdev.ca London, ON, Canada 
                 </div>
               </li>
               <li class="d-flex align-items-center mt-4">
@@ -508,7 +508,7 @@
               <li class="d-flex align-items-center mt-4">
                 <i class="fas fa-check text-primary mx-3"></i>
                 <div>
-                  <strong>Working Hours:</strong> 10 am to 2 pm, Monday - Saturday
+                  <strong>Business Hours:</strong> 10 am to 2 pm, Monday - Saturday
                 </div>
               </li>
             </ul>
@@ -527,11 +527,11 @@
                   Looks good!
                 </div>
               </div>
-              <div class="mb-4">
+              <!-- <div class="mb-4">
                 <input type="text" id="inputPhone" class="form-control bg-secondary" placeholder="Enter phone">
-              </div>
+              </div> -->
               <div class="mb-4">
-                <textarea class="form-control bg-secondary" id="textareaMessage" placeholder="Enter message" rows="6" required></textarea>
+                <textarea class="form-control bg-secondary" id="textareaMessage" placeholder="Enter message" rows="3" required></textarea>
               </div>                
               <div class="mb-4 form-check">
                 <input class="form-check-input" type="checkbox" id="agree-check" required />
@@ -543,6 +543,18 @@
                 <input type="submit" value="Submit" class="btn btn-primary text-white" />
               </div>
             </form>
+          </div>
+        </div>
+        
+        <div class="row mt-4 justify-content-center">      
+          <div style="max-width:100%;overflow:hidden;color:red;width:1500px;height:400px;">
+            <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=London,+ON&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                </iframe>
+            </div>
+            <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+            <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+            </style>
           </div>
         </div>
       </div>
