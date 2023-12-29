@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', userScroll);
 // Send email
 const senderName = document.getElementById('inputName');
 const email = document.getElementById('inputEmail');
-const phone = document.getElementById('inputPhone');
+// const phone = document.getElementById('inputPhone');
 const textMessage = document.getElementById('textareaMessage'); 
 const submit = document.getElementsByClassName('contact-form')[0];
 
@@ -55,7 +55,6 @@ submit.addEventListener('submit', (event) => {
     Subject: "Message From Contact Form",
     Body: `Name: ${senderName.value} <br />
     Email: ${email.value} <br />,
-    Phone: ${phone.value} <br />
     Message: ${textMessage.value}`
   }).then (
     clearAndAlertOnSubmit(),
