@@ -73,4 +73,7 @@
   .header {
     text-align: center;
   }
+  .pricing-container {
+    width: 700px;
+  }
 }

@@ -41,7 +41,10 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#services">Services</a>
-            </li>                          
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#value">Value</a>
+            </li>                           
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
             </li>
@@ -57,6 +60,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>  -->
           </ul>
           <span class="nav-item">
             <span class="fa-stack">
@@ -89,7 +95,7 @@
             <h4 class="xl-text mt-5">
               Hello, <br /> I'm <span style="color: #2FFCF0">Elena</span> and I do <br />
               <span class="text-secondary fw-bold replace-me"
-                >Web Design, Web Development, Website Deployment</span
+                >Web Design, Web Development, Web Deployment</span
               >
             </h4>
             <p class="lead">
@@ -172,7 +178,7 @@
             <h5>
               <span class="badge bg-primary rounded-0 text-uppercase">Additional Services</span>
             </h5>
-            <h2 class="fw-bold">Your Solution for Any Challenge</h2>
+            <h2 class="fw-bold">Your Solutions for Any Challenges</h2>
             <p>
               Take a look at the additional services that can help you achieve your goals and solve your problems.
             </p>
@@ -191,29 +197,33 @@
               </div>
             </div>
           </div> -->                
-          <div class="col-md-3">
+          <div class="col-md-6">
             <div class="card bg-transparent border-0 text-center mb-3">
               <div class="card-image">
                 <i class="fas fa-wifi fa-5x text-primary"></i>
               </div>
               <div class="card-body">
-                <h4 class="card-title">Website Deployment</h4>
-                <p>Featuring your website live on the internet, such as setting up your domain name, hosting service, and business email account.</p>
+                <h4 class="card-title">Web Deployment</h4>
+                <p>Featuring your website or app live on the internet, such as setting up your domain name, hosting service, DNS records, business email account, and uploading the files to the web server.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-          <div class="card bg-transparent border-0 text-center mb-3">
-            <div class="card-image">
-              <i class="fas servicesIcon fa-wrench fa-5x text-primary"></i>
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">Website maintenance</h4>
-              <p>Regularly checking your website for issues, correcting any problems, and making updates. </p>
+          <div class="col-md-6">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-solid fa-mobile-screen-button fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">PWA</h4>
+                <h5 class="card-title">(Progressive Web Application)</h5>
+                <p>Turn a website into a PWA. It works like a native app, but it can run on any device, and have a lower development and maintenance cost than native apps (iOS, Android).</p>
+              </div>
             </div>
           </div>
-          </div>
-          <div class="col-md-3">
+        </div>
+        <!-- Additional Services row 2 -->
+        <div class="row">          
+          <div class="col-md-4">
           <div class="card bg-transparent border-0 text-center mb-3">
             <div class="card-image">
               <i class="fas fa-glasses fa-5x text-primary"></i>
@@ -224,17 +234,29 @@
             </div>
           </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">            
           <div class="card bg-transparent border-0 text-center mb-3">
             <div class="card-image">
               <i class="fas servicesIcon fa-search fa-5x text-primary"></i>
             </div>
             <div class="card-body">
               <h4 class="card-title">SEO</h4>
+              <h5 class="card-title">(Search Engine Optimisation)</h5>
               <p>Enhancing your website’s visibility and performance on search engines.</p>
             </div>
           </div>
-          </div>  
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas servicesIcon fa-wrench fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Website Maintenance and Support</h4>
+                <p>Regularly checking your website for issues, correcting any problems, and making updates. </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -406,76 +428,336 @@
               Pricing
             </span></h5>
             <h2 class="fw-bold">
-              Flexible Pricing Options
+              Website Packages
             </h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <!-- Pricing Col 1 -->
-          <div class="col-md-3">
-            <div class="card bg-secondary text-center rounded-0">
+          <div class="col-md-3 pricing-container">
+            <div class="card bg-secondary text-center shadow-lg border-0 rounded-4">
               <div class="card-body">
-                <div class="xl-text fw-bold">$99</div>
+                <div class="xl-text fw-bold">$999</div>
                 <h4 class="card-title text-primary text-uppercase fw-bold mb-5">
-                  Standard
+                  Simple
                 </h4>
-                <p>Our standard pricing plan offers a comprehensive set of features
-                  for your software needs</p>
-                  <ul class="list-unstyled lh-lg mt-5">
-                    <li class="text-uppercase fs-5 fw-bold">
-                      Subscribers List
-                    </li>
-                    <li class="text-uppercase fs-5 fw-bold">
-                      User Admin Control
-                    </li>
-                  </ul>
-                  <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Inquire</a>
+                <ul class="list-group list-group-flush fs-5 mb-5 vstack gap-2">
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Design Template
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> 5 Pages Max
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> One page site
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Web Deployment
+                  </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Get Started</a>
               </div>
             </div>
           </div>
 
           <!-- Pricing Col 2 -->
-          <div class="col-md-3">
-            <div class="card bg-secondary text-center rounded-0">
+          <div class="col-md-3 pricing-container">
+            <div class="card bg-secondary text-center shadow-lg border-0 rounded-4">
               <div class="card-body">
-                <div class="xl-text fw-bold">$199</div>
+                <div class="xl-text fw-bold">$2,499</div>
                 <h4 class="card-title text-primary text-uppercase fw-bold mb-5">
-                  Advanced
+                  Standard/ Advanced
                 </h4>
-                <p> Unlock additional enhanced capabilities. Take your software
-                  solutions to the next level</p>
-                  <ul class="list-unstyled lh-lg mt-5">
-                    <li class="text-uppercase fs-5 fw-bold">
-                      Limited Storage Space
-                    </li>
-                    <li class="text-uppercase fs-5 fw-bold">
-                      Free Cloud Storage
-                    </li>
-                  </ul>
-                  <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Inquire</a>
+                <ul class="list-group list-group-flush fs-5 mb-5 vstack gap-2">
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Custom Design
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> 10 Pages Max
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> CMS
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Contact Form
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Web Deployment
+                  </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Get Started</a> 
               </div>
             </div>
           </div>
 
           <!-- Pricing Col 3 -->
-          <div class="col-md-3">
-            <div class="card bg-secondary text-center rounded-0">
+          <div class="col-md-3 pricing-container">
+            <div class="card bg-secondary text-center shadow-lg border-0 rounded-4">
               <div class="card-body">
-                <div class="xl-text fw-bold">$299</div>
+                <div class="xl-text fw-bold">$4,999</div>
                 <h4 class="card-title text-primary text-uppercase fw-bold mb-5">
-                  Complete
+                  PRO
                 </h4>
-                <p> Our complete pricing plan offers an all-inclusive package with
-                  advanced features</p>
-                  <ul class="list-unstyled lh-lg mt-5">
-                    <li class="text-uppercase fs-5 fw-bold">
-                      Deployment Protocol
-                    </li>
-                    <li class="text-uppercase fs-5 fw-bold">
-                      Premium Support Pack
-                    </li>
-                  </ul>
-                  <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Inquire</a>
+                <ul class="list-group list-group-flush fs-5 mb-5 vstack gap-2">
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Custom Design
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Unlimited Pages
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> CMS
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Contact Form
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Web Deployment
+                  </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="monthly-pricing" class="pricing my-6 pt-6">
+      <div class="container">
+        <!-- Monthly Packages -->
+        <div class="row mb-4 mt-6 pt-6">
+          <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+            <h5><span class="badge bg-primary rounded-0 text-uppercase">
+            Monthly Pricing
+            </span></h5>
+            <h2 class="fw-bold">
+              Monthly Packages *
+            </h2>
+            <h3>Save money</h3> 
+            <p>You can avoid paying a large upfront cost for your website project, and instead spread the cost over a longer period of time. </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <!-- Monthly Pricing Col 1 -->
+          <div class="col-md-3 pricing-container">
+            <div class="card bg-secondary text-center shadow-lg border-0 rounded-4">
+              <div class="card-body">
+                <div class="h1 fw-bold">$134.99/month</div>
+                <h4 class="card-title text-primary text-uppercase fw-bold mb-5">
+                  Simple
+                </h4>
+                <ul class="list-group list-group-flush fs-5 mb-5 vstack gap-2">
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Custom Website <br />(5 pages Max)
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Managed Web Hosting <br />& Domain
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Monthly Updates
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Website maintenance <br />and Support
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Uptime Monitoring
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Website Security
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> SSL Certificate for Secure Connection
+                  </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <!-- Monthly Pricing Col 2 -->
+          <div class="col-md-3 pricing-container">
+            <div class="card bg-secondary text-center shadow-lg border-0 rounded-4">
+              <div class="card-body">
+                <div class="h1 fw-bold">$224.99/month</div>
+                <h4 class="card-title text-primary text-uppercase fw-bold mb-5">
+                  Basic
+                </h4>
+                <ul class="list-group list-group-flush fs-5 mb-5 vstack gap-2">
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Custom Website (10 pages Max)
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Managed Web Hosting & Domain
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Monthly Updates
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Website maintenance and Support
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Uptime Monitoring
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Website Security
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> SSL Certificate for Secure Connection
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i>  Keyword Research & Implementation
+                  </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Monthly Pricing Col 3  TODO-->
+          <div class="col-md-3 pricing-container">
+            <div class="card bg-secondary text-center shadow-lg border-0 rounded-4">
+              <div class="card-body">
+                <div class="xl-text fw-bold">$950/month</div>
+                <h4 class="card-title text-primary text-uppercase fw-bold mb-5">
+                  PRO
+                </h4>
+                <ul class="list-group list-group-flush fs-5 mb-5 vstack gap-2">
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i>  Complete website
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> hosting & domain
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> 2 blog article
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> website maintenance
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> social media management
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> Infographics & design
+                  </li>
+                  <li class="list-group-item bg-secondary text-white border-0">
+                    <i class="fa-solid fa-check"></i> SEO  
+                  </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-6 fw-bold">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>* Note: The Monthly Web package fees are based on a 6 to 24-month contract agreement and depends on the scope of the project.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Website Maintenance Pricing -->
+    <section id="maintenance-pricing" class="pricing my-6 pt-6">
+      <div class="container">       
+        <div class="row mb-4 mt-6 pt-6">
+          <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+            <h5><span class="badge bg-primary rounded-0 text-uppercase">
+            Website Maintenance Pricing
+            </span></h5>
+            <h2 class="fw-bold">
+              Website Maintenance Monthly Packages 
+            </h2>
+          </div>
+        </div>       
+        <div class="row h-100 text-center">
+          <!-- Website Maintenance Monthly Pricing Col 1 -->
+          <div class="col-md-3 d-flex flex-column pricing-container">
+            <div class="card h-100 mb-4 rounded-3 shadow-sm text-secondary">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Simple</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$99<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Website Uptime Monitoring</li>
+                  <li>Monthly Software Updates</li>
+                  <li>Website Security</li>
+                  <li>Website Backups</li>
+                  <li>Website Support</li>
+                  <li>SSL Certificate</li>
+                  <li class="user-select-none text-white">.</li>
+                  <li class="user-select-none text-white">.</li>
+                  <li class="user-select-none text-white">.</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-4 fw-bold">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <!-- Website Maintenance Monthly Pricing Col 2 -->
+          <div class="col-md-3 d-flex flex-column pricing-container">
+            <div class="card h-100 mb-4 rounded-3 shadow-sm text-secondary">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Standard</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$134.99<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Website Uptime Monitoring</li>
+                  <li>Monthly Software Updates</li>
+                  <li>Website Security</li>
+                  <li>Website Backups</li>
+                  <li>Website Support</li>
+                  <li>SSL Certificate</li>
+                  <li>Software issues fixed</li>
+                  <li class="user-select-none text-white">.</li>
+                  <li class="user-select-none text-white">.</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-4 fw-bold">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <!-- Website Maintenance Monthly Pricing Col 3 -->
+          <div class="col-md-3 d-flex flex-column pricing-container">
+            <div class="card h-100 mb-4 rounded-3 shadow-sm text-secondary">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Advanced</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$199.99<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Website Uptime Monitoring</li>
+                  <li>Monthly Software Updates</li>
+                  <li>Website Security</li>
+                  <li>Website Backups</li>
+                  <li>Website Support</li>
+                  <li>SSL Certificate</li>
+                  <li>Software issues fixed</li>
+                  <li>Website Content Updates (1 Hour)</li>
+                  <li>Malware Removing</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-4 fw-bold">Get Started</a>
+              </div>
+            </div>
+          </div>
+          <!-- Website Maintenance Monthly Pricing Col 4 -->
+          <div class="col-md-3 d-flex flex-column pricing-container">
+            <div class="card h-100 mb-4 rounded-3 shadow-sm text-secondary">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">PRO</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">Custom Price<small class="text-muted fw-light">/mo</small></h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Website Uptime Monitoring</li>
+                  <li>Monthly Software Updates</li>
+                  <li>Website Security</li>
+                  <li>Website Backups</li>
+                  <li>Website Support</li>
+                  <li>SSL Certificate</li>
+                  <li>Software issues fixed</li>
+                  <li>Website Content Updates (Custom)</li>
+                  <li>Malware Removing</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-white mt-2 fw-bold">Get Started</a>
               </div>
             </div>
           </div>
@@ -589,39 +871,6 @@
               </style>
             </div>
           </div> -->
-          <div class="col-md-6 mt-4">
-            <div class="row">
-            <div class="card mb-2 pb-2">
-              <div class="card-body">
-                
-                <div class="mt-2"> 
-                  <div class="card-image text-start mb-4">
-                  <i class="fas fa-brands fa-canadian-maple-leaf fa-2x text-primary"></i>
-                </div>            
-                  <h5 class="card-title text-secondary"><strong>Canadian Web Development Services</strong></h5>
-                  <p class="card-text text-secondary">I create websites for clients all over Canada. I work online with the skills and tools to meet your needs and vision. Wherever you are, I can help you with your web project.
-                  </p>
-                </div>
-              </div>
-            </div>
-            </div>
-            <div class="row">
-            <div class="card border-secondary">
-              <div class="card-image text-center mt-2 mb-2">
-                <i class="fas fa-solid fa-comment-dots fa-3x text-primary"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title text-secondary"><strong>Share Your Feedback</strong></h5>
-                <p class="card-text text-secondary">Are you happy with my work or services? I would love to hear your feedback and suggestions. Please fill out the Contact form above and let me know what you think.</p>
-              </div>
-            </div>
-            </div>
-            <div class="row">
-            <div class="mt-4">
-              <a href="https://www.buymeacoffee.com/elenasoftdev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-            </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
