@@ -53,12 +53,12 @@ submit.addEventListener('submit', (event) => {
     To: 'elena311979@gmail.com', 
     From: 'elena311979@gmail.com',
     Subject: "Message From Contact Form",
-    Body: `Name: ${senderName.value} <br />
+    Body: `Name: ${senderName.value} <br />,
     Email: ${email.value} <br />,
     Message: ${textMessage.value}`
   }).then (
     clearAndAlertOnSubmit(),
-    console.log(senderName.value, email.value, phone.value, textMessage.value),
+    console.log(senderName.value, email.value, textMessage.value),
     submit.reset()
   )
   } catch (error){
