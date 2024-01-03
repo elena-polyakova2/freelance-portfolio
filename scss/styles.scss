@@ -81,7 +81,6 @@
     transition: 0.5s all;
     border: none;
 
-
     .card-header {
       background: #FA4403;
       color: white; 
@@ -107,7 +106,7 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   // position: relative;
-  font-size: 2em;
+  font-size: 1.5em;
   letter-spacing: 10px;
   animation: glowing 5s linear infinite;
 }

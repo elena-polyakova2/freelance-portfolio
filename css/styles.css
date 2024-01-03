@@ -95,7 +95,7 @@
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  font-size: 2em;
+  font-size: 1.5em;
   letter-spacing: 10px;
   animation: glowing 5s linear infinite;
 }
