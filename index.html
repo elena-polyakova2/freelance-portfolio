@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="images/favicon.png" />
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <title>Elena Polyakova: Professional Web Designer and Developer</title>
   </head>
   
@@ -135,7 +136,10 @@
             <p class="lead">
               Create your online presence with affordable and customized web solutions that suit your goals and budget.
             </p>
-            <a href="#contact" class="btn btn-primary text-white">Contact</a>
+            <!-- <a href="#contact" class="btn btn-primary text-white">Contact</a> -->
+            <!-- Calendly link widget -->
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/contact-mp0'});return false;" class="btn btn-primary text-white">Book Free Consultation</a>
+
           </div>
           <div class="col-md-5 pt-5">
             <img src="images\my-image.png" alt="The image of the working developer" class="img-fluid d-none d-md-block" />
@@ -994,6 +998,7 @@
     <script src="js/replaceme.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
