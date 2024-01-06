@@ -4,7 +4,6 @@
 
 .navbar {
   background-image: linear-gradient(to right, rgba(29, 203, 251, 0), rgb(3, 138, 255));
-  position: relative;
 }
 
 .header {
@@ -125,5 +124,15 @@
   }
   #about img {
     max-width: 60%;
+  }
+  .dropdown-menu {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .fa-stack {
+    font-size: 10px;
+    justify-content: space-between;
+    display: inline-block;
   }
 }
