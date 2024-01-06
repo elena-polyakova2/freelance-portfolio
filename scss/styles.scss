@@ -105,22 +105,15 @@
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  // position: relative;
   font-size: 1.5em;
   letter-spacing: 10px;
   animation: glowing 5s linear infinite;
 }
 
 @keyframes glowing {
-  20% {
-    
+  20% { 
     text-shadow: none;
-    // color: linear-gradient(
-    //   45deg,
-    //   #FF0000, #FF7300, #FFFB00, #48FF00,
-    //   #00FFD5, #002BFF , #FF00C8, #FF0000
-    // );
-  }
+   }
   40%, 60%, 80% {
     background-color: white;
     text-shadow: 0 0 10px #FF0000,
@@ -142,10 +135,21 @@
   .header {
     text-align: center;
     // background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+
+    img {
+      margin-top: 50px;
+    }
   }
 
   .pricing-container {
     width: 700px;
+  }
+
+
+  #about {
+    img {
+    max-width: 60%;
+    }
   }
 }
 

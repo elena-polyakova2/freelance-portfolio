@@ -116,7 +116,13 @@
   .header {
     text-align: center;
   }
+  .header img {
+    margin-top: 50px;
+  }
   .pricing-container {
     width: 700px;
+  }
+  #about img {
+    max-width: 60%;
   }
 }
