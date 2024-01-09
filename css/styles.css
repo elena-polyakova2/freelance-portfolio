@@ -109,6 +109,10 @@
     text-shadow: 0 0 10px #FF0000, 0 0 20px #FF7300, 0 0 30px #FFFB00, 0 0 40px #48FF00;
   }
 }
+.image-flag {
+  background-image: url("Russia_flat.png") no-repeat 100% 100%;
+}
+
 @media (max-width: 992px) {
   .xl-text {
     font-size: 50px;

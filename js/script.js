@@ -81,3 +81,16 @@ async function clearAndAlertOnSubmit() {
       })}
   )
 }
+
+// Select languages
+// $(function(){
+//   $('.selectpicker').selectpicker();
+// });
+
+// In your Javascript (external .js resource or <script> tag)
+$(document).ready(function() {
+  $('.languages-picker').select2();
+});
+
+
+  
