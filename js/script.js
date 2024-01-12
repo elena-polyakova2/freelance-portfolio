@@ -59,7 +59,7 @@ submit.addEventListener('submit', (event) => {
   }).then (
     clearAndAlertOnSubmit(),
     console.log(senderName.value, email.value, textMessage.value),
-    submit.reset()
+    // submit.reset()
   )
   } catch (error){
     console.log(error);
