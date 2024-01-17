@@ -13,6 +13,7 @@ Bootstrap personal website for my web development business with modals and other
 - Pricing grid
 - Styled modals for projects
 - Font awesome icons
+- Calendly integrated for booking
 
 ## Usage
 
