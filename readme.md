@@ -18,6 +18,7 @@ Bootstrap personal website for my web development business with modals and other
 - Animation on hover
 - Buy Me a Coffee integrated button
 - Privacy Policy
+- Terms & Conditions
 
 ## Usage
 
