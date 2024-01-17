@@ -20,16 +20,6 @@ This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](htt
 
 
 
-```bash
-npm install
-```
-
-This will install Bootstrap, Sass and Font Awesome. To build your CSS files from Sass, run:
-
-```bash
-npm run sass:build
-```
-
 To watch your Sass files for changes, run:
 
 ```bash
