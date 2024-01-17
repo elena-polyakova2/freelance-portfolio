@@ -17,6 +17,7 @@ Bootstrap personal website for my web development business with modals and other
 - Dropdown menu to change language
 - Animation on hover
 - Buy Me a Coffee integrated button
+- Privacy Policy
 
 ## Usage
 
