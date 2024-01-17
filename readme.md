@@ -15,6 +15,7 @@ Bootstrap personal website for my web development business with modals and other
 - Font awesome icons
 - Calendly integrated for booking
 - Dropdown menu to change language
+- Animation on hover
 
 ## Usage
 
