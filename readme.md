@@ -18,7 +18,7 @@ Bootstrap personal website for my web development business with modals and other
 
 This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](https://sass-lang.com/). It uses [Font Awesome](https://fontawesome.com/) for icons.
 
-In order to customize this website, you need to install [Node.js](https://nodejs.org/en/). Then, clone this repository and run:
+
 
 ```bash
 npm install
