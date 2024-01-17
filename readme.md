@@ -16,6 +16,7 @@ Bootstrap personal website for my web development business with modals and other
 - Calendly integrated for booking
 - Dropdown menu to change language
 - Animation on hover
+- Buy Me a Coffee integrated button
 
 ## Usage
 
