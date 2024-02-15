@@ -4,8 +4,6 @@ Bootstrap personal website for my web development business with modals and other
 
 
 
-
-
 ## Features
 
 - Colourful design with bright buttons & text for contrast
